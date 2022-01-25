@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #4a4a49; -fx-background-radius: 20;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.controller.ThumbController">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" style="-fx-background-radius: 20;">
+         <image>
+            <Image url="@../../../../../../images/download.jpg" />
+         </image>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin></ImageView>
+   </children>
+</VBox>
